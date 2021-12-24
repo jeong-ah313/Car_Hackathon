@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="utf-8"?><annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>2547</id>
+      <project>Intersection</project>
+      <name>point_update_02</name>
+      <size>2</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker/>
+      <flipped>False</flipped>
+      <created>2021-05-19 14:37:50.325772+09:00</created>
+      <updated>2021-05-21 13:12:50.700807+09:00</updated>
+      <start_frame>0</start_frame>
+      <stop_frame>0</stop_frame>
+      <frame_filter>step=1</frame_filter>
+      <labels>
+        <label>
+          <name>pedestrian</name>
+          <attributes>
+            <attribute>
+              <name>is_visible</name>
+              <mutable>False</mutable>
+              <input_type>radio</input_type>
+              <default_value>true</default_value>
+              <values>true
+false</values>
+            </attribute>
+            <attribute>
+              <name>is_stopped</name>
+              <mutable>False</mutable>
+              <input_type>radio</input_type>
+              <default_value>true</default_value>
+              <values>true
+false</values>
+            </attribute>
+            <attribute>
+              <name>is_parked</name>
+              <mutable>False</mutable>
+              <input_type>radio</input_type>
+              <default_value>false</default_value>
+              <values>false
+true</values>
+            </attribute>
+            <attribute>
+              <name>is_correct</name>
+              <mutable>False</mutable>
+              <input_type>radio</input_type>
+              <default_value>true</default_value>
+              <values>true
+false</values>
+            </attribute>
+            <attribute>
+              <name>car_count</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value/>
+              <values>
+</values>
+            </attribute>
+            <attribute>
+              <name>3D_Point</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value/>
+              <values>
+unknown</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>bike</name>
+          <attributes>
+            <attribute>
+              <name>is_visible</name>
+              <mutable>False</mutable>
+              <input_type>radio</input_type>
+              <default_value>true</default_value>
+              <values>true
+false</values>
+            </attribute>
+            <attribute>
+              <name>is_stopped</name>
+              <mutable>False</mutable>
+              <input_type>radio</input_type>
+              <default_value>true</default_value>
+              <values>true
+false</values>
+            </attribute>
+            <attribute>
+              <name>is_parked</name>
+              <mutable>False</mutable>
+              <input_type>radio</input_type>
+              <default_value>false</default_value>
+              <values>false
+true</values>
+            </attribute>
+            <attribute>
+              <name>is_correct</name>
+              <mutable>False</mutable>
+              <input_type>radio</input_type>
+              <default_value>true</default_value>
+              <values>true
+false</values>
+            </attribute>
+            <attribute>
+              <name>car_count</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value/>
+              <values>
+</values>
+            </attribute>
+            <attribute>
+              <name>3D_Point</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value/>
+              <values>
+</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>large_truck</name>
+          <attributes>
+            <attribute>
+              <name>is_visible</name>
+              <mutable>False</mutable>
+              <input_type>radio</input_type>
+              <default_value>true</default_value>
+              <values>true
+false</values>
+            </attribute>
+            <attribute>
+              <name>is_stopped</name>
+              <mutable>False</mutable>
+              <input_type>radio</input_type>
+              <default_value>true</default_value>
+              <values>true
+false</values>
+            </attribute>
+            <attribute>
+              <name>is_parked</name>
+              <mutable>False</mutable>
+              <input_type>radio</input_type>
+              <default_value>false</default_value>
+              <values>false
+true</values>
+            </attribute>
+            <attribute>
+              <name>is_correct</name>
+              <mutable>False</mutable>
+              <input_type>radio</input_type>
+              <default_value>true</default_value>
+              <values>true
+false</values>
+            </attribute>
+            <attribute>
+              <name>car_count</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value/>
+              <values>
+</values>
+            </attribute>
+            <attribute>
+              <name>3D_Point</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value/>
+              <values>
+</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>truck</name>
+          <attributes>
+            <attribute>
+              <name>is_visible</name>
+              <mutable>False</mutable>
+              <input_type>radio</input_type>
+              <default_value>true</default_value>
+              <values>true
+false</values>
+            </attribute>
+            <attribute>
+              <name>is_stopped</name>
+              <mutable>False</mutable>
+              <input_type>radio</input_type>
+              <default_value>true</default_value>
+              <values>true
+false</values>
+            </attribute>
+            <attribute>
+              <name>is_parked</name>
+              <mutable>False</mutable>
+              <input_type>radio</input_type>
+              <default_value>false</default_value>
+              <values>false
+true</values>
+            </attribute>
+            <attribute>
+              <name>is_correct</name>
+              <mutable>False</mutable>
+              <input_type>radio</input_type>
+              <default_value>true</default_value>
+              <values>true
+false</values>
+            </attribute>
+            <attribute>
+              <name>car_count</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value/>
+              <values>
+</values>
+            </attribute>
+            <attribute>
+              <name>3D_Point</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value/>
+              <values>
+</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>bus</name>
+          <attributes>
+            <attribute>
+              <name>is_visible</name>
+              <mutable>False</mutable>
+              <input_type>radio</input_type>
+              <default_value>true</default_value>
+              <values>true
+false</values>
+            </attribute>
+            <attribute>
+              <name>is_stopped</name>
+              <mutable>False</mutable>
+              <input_type>radio</input_type>
+              <default_value>true</default_value>
+              <values>true
+false</values>
+            </attribute>
+            <attribute>
+              <name>is_parked</name>
+              <mutable>False</mutable>
+              <input_type>radio</input_type>
+              <default_value>false</default_value>
+              <values>false
+true</values>
+            </attribute>
+            <attribute>
+              <name>is_correct</name>
+              <mutable>False</mutable>
+              <input_type>radio</input_type>
+              <default_value>true</default_value>
+              <values>true
+false</values>
+            </attribute>
+            <attribute>
+              <name>car_count</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value/>
+              <values>
+</values>
+            </attribute>
+            <attribute>
+              <name>3D_Point</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value/>
+              <values>
+</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>small_bus</name>
+          <attributes>
+            <attribute>
+              <name>is_visible</name>
+              <mutable>False</mutable>
+              <input_type>radio</input_type>
+              <default_value>true</default_value>
+              <values>true
+false</values>
+            </attribute>
+            <attribute>
+              <name>is_stopped</name>
+              <mutable>False</mutable>
+              <input_type>radio</input_type>
+              <default_value>true</default_value>
+              <values>true
+false</values>
+            </attribute>
+            <attribute>
+              <name>is_parked</name>
+              <mutable>False</mutable>
+              <input_type>radio</input_type>
+              <default_value>false</default_value>
+              <values>false
+true</values>
+            </attribute>
+            <attribute>
+              <name>is_correct</name>
+              <mutable>False</mutable>
+              <input_type>radio</input_type>
+              <default_value>true</default_value>
+              <values>true
+false</values>
+            </attribute>
+            <attribute>
+              <name>car_count</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value/>
+              <values>
+</values>
+            </attribute>
+            <attribute>
+              <name>3D_Point</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value/>
+              <values>
+</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>car</name>
+          <attributes>
+            <attribute>
+              <name>is_visible</name>
+              <mutable>False</mutable>
+              <input_type>radio</input_type>
+              <default_value>true</default_value>
+              <values>true
+false</values>
+            </attribute>
+            <attribute>
+              <name>is_stopped</name>
+              <mutable>False</mutable>
+              <input_type>radio</input_type>
+              <default_value>true</default_value>
+              <values>true
+false</values>
+            </attribute>
+            <attribute>
+              <name>is_parked</name>
+              <mutable>False</mutable>
+              <input_type>radio</input_type>
+              <default_value>false</default_value>
+              <values>false
+true</values>
+            </attribute>
+            <attribute>
+              <name>is_correct</name>
+              <mutable>False</mutable>
+              <input_type>radio</input_type>
+              <default_value>true</default_value>
+              <values>true
+false</values>
+            </attribute>
+            <attribute>
+              <name>car_count</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value/>
+              <values>
+</values>
+            </attribute>
+            <attribute>
+              <name>3D_Point</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value/>
+              <values>
+</values>
+            </attribute>
+          </attributes>
+        </label>
+      </labels>
+      <segments>
+        <segment>
+          <id>2499</id>
+          <start>0</start>
+          <stop>14</stop>
+          <url>http://220.85.41.207:8080/?id=2499</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>hughpark</username>
+        <email>hwpark@testworks.co.kr</email>
+      </owner>
+    </task>
+    <dumped>2021-05-21 13:13:46.202189+09:00</dumped>
+  </meta>
+  <image id="13" name="2_1_postoffice_20201222_141259 14.jpg" width="1920" height="1080">
+    <polyline label="car" occluded="0" points="1209.78,467.85;1173.04,435.65;1158.64,409.52;1133.65,391.33;1134.78,372.77;1116.22,363.31" z_order="1">
+      <attribute name="is_visible">true</attribute>
+      <attribute name="is_stopped">true</attribute>
+      <attribute name="is_parked">false</attribute>
+      <attribute name="is_correct">true</attribute>
+      <attribute name="car_count">6</attribute>
+      <attribute name="3D_Point">37˚23'42"N 126˚55'04"E 37m</attribute>
+    </polyline>
+    <polyline label="car" occluded="0" points="1333.26,472.39;1283.26,445.12;1262.05,424.67;1236.67,405.35;1215.84,384.14" z_order="2">
+      <attribute name="is_visible">true</attribute>
+      <attribute name="is_stopped">true</attribute>
+      <attribute name="is_parked">false</attribute>
+      <attribute name="is_correct">true</attribute>
+      <attribute name="car_count">5</attribute>
+      <attribute name="3D_Point">37˚23'42"N 126˚55'04"E 37m</attribute>
+    </polyline>
+    <points label="truck" occluded="0" points="1077.59,458.76" z_order="3">
+      <attribute name="is_visible">true</attribute>
+      <attribute name="is_stopped">true</attribute>
+      <attribute name="is_parked">false</attribute>
+      <attribute name="is_correct">true</attribute>
+      <attribute name="car_count">1</attribute>
+      <attribute name="3D_Point">37˚23'42"N 126˚55'04"E 37m</attribute>
+    </points>
+    <points label="truck" occluded="0" points="1053.35,377.32" z_order="4">
+      <attribute name="is_visible">true</attribute>
+      <attribute name="is_stopped">true</attribute>
+      <attribute name="is_parked">false</attribute>
+      <attribute name="is_correct">true</attribute>
+      <attribute name="car_count"/>
+      <attribute name="3D_Point"/>
+    </points>
+    <points label="car" occluded="0" points="1045.01,367.47" z_order="6">
+      <attribute name="is_visible">true</attribute>
+      <attribute name="is_stopped">true</attribute>
+      <attribute name="is_parked">false</attribute>
+      <attribute name="is_correct">true</attribute>
+      <attribute name="car_count">1</attribute>
+      <attribute name="3D_Point">37˚23'42"N 126˚55'04"E 37m</attribute>
+    </points>
+    <points label="car" occluded="0" points="1169.25,348.15" z_order="7">
+      <attribute name="is_visible">true</attribute>
+      <attribute name="is_stopped">true</attribute>
+      <attribute name="is_parked">false</attribute>
+      <attribute name="is_correct">true</attribute>
+      <attribute name="car_count">1</attribute>
+      <attribute name="3D_Point">37˚23'42"N 126˚55'04"E 37m</attribute>
+    </points>
+    <points label="bus" occluded="0" points="945.40,462.54" z_order="8">
+      <attribute name="is_visible">true</attribute>
+      <attribute name="is_stopped">true</attribute>
+      <attribute name="is_parked">false</attribute>
+      <attribute name="is_correct">true</attribute>
+      <attribute name="car_count">1</attribute>
+      <attribute name="3D_Point">37˚23'42"N 126˚55'04"E 37m</attribute>
+    </points>
+    <polyline label="car" occluded="0" points="1057.89,410.65;1062.44,387.55" z_order="9">
+      <attribute name="is_visible">true</attribute>
+      <attribute name="is_stopped">true</attribute>
+      <attribute name="is_parked">false</attribute>
+      <attribute name="is_correct">true</attribute>
+      <attribute name="car_count">2</attribute>
+      <attribute name="3D_Point">37˚23'42"N 126˚55'04"E 37m</attribute>
+    </polyline>
+    <polyline label="truck" occluded="0" points="1187.81,356.11;1192.73,366.34" z_order="11">
+      <attribute name="is_visible">true</attribute>
+      <attribute name="is_stopped">true</attribute>
+      <attribute name="is_parked">false</attribute>
+      <attribute name="is_correct">true</attribute>
+      <attribute name="car_count">2</attribute>
+      <attribute name="3D_Point">37˚23'42"N 126˚55'04"E 37m</attribute>
+    </polyline>
+    <polyline label="car" occluded="0" points="1007.24,157.82;1006.12,146.05" z_order="13">
+      <attribute name="is_visible">true</attribute>
+      <attribute name="is_stopped">true</attribute>
+      <attribute name="is_parked">false</attribute>
+      <attribute name="is_correct">false</attribute>
+      <attribute name="car_count">3</attribute>
+      <attribute name="3D_Point">37˚23'42"N 126˚55'04"E 37m</attribute>
+    </polyline>
+    <points label="bus" occluded="0" points="992.11,157.78" z_order="12">
+      <attribute name="is_visible">true</attribute>
+      <attribute name="is_stopped">true</attribute>
+      <attribute name="is_parked">false</attribute>
+      <attribute name="is_correct">false</attribute>
+      <attribute name="car_count">1</attribute>
+      <attribute name="3D_Point">37˚23'42"N 126˚55'04"E 37m</attribute>
+    </points>
+    <polyline label="car" occluded="0" points="1025.37,158.62;1021.71,146.85" z_order="14">
+      <attribute name="is_visible">true</attribute>
+      <attribute name="is_stopped">true</attribute>
+      <attribute name="is_parked">false</attribute>
+      <attribute name="is_correct">false</attribute>
+      <attribute name="car_count">3</attribute>
+      <attribute name="3D_Point">37˚23'42"N 126˚55'04"E 37m</attribute>
+    </polyline>
+    <polyline label="car" occluded="0" points="1027.91,175.32;1025.05,167.37" z_order="15">
+      <attribute name="is_visible">true</attribute>
+      <attribute name="is_stopped">false</attribute>
+      <attribute name="is_parked">false</attribute>
+      <attribute name="is_correct">false</attribute>
+      <attribute name="car_count">2</attribute>
+      <attribute name="3D_Point">37˚23'42"N 126˚55'04"E 37m</attribute>
+    </polyline>
+    <polyline label="car" occluded="0" points="1040.16,159.89;1029.19,143.51" z_order="16">
+      <attribute name="is_visible">true</attribute>
+      <attribute name="is_stopped">true</attribute>
+      <attribute name="is_parked">false</attribute>
+      <attribute name="is_correct">false</attribute>
+      <attribute name="car_count">4</attribute>
+      <attribute name="3D_Point">37˚23'42"N 126˚55'04"E 37m</attribute>
+    </polyline>
+  </image>
+  <image id="14" name="2_1_postoffice_20201222_141259 15.jpg" width="1920" height="1080">
+    <points label="bus" occluded="0" points="939.22,474.06" z_order="1">
+      <attribute name="is_visible">true</attribute>
+      <attribute name="is_stopped">true</attribute>
+      <attribute name="is_parked">false</attribute>
+      <attribute name="is_correct">true</attribute>
+      <attribute name="car_count">1</attribute>
+      <attribute name="3D_Point">37˚23'42"N 126˚55'04"E 37m</attribute>
+    </points>
+    <points label="bike" occluded="0" points="1054.92,483.75" z_order="2">
+      <attribute name="is_visible">true</attribute>
+      <attribute name="is_stopped">true</attribute>
+      <attribute name="is_parked">false</attribute>
+      <attribute name="is_correct">true</attribute>
+      <attribute name="car_count">1</attribute>
+      <attribute name="3D_Point">37˚23'42"N 126˚55'04"E 37m</attribute>
+    </points>
+    <polyline label="truck" occluded="0" points="1193.24,367.54;1182.95,358.83" z_order="4">
+      <attribute name="is_visible">true</attribute>
+      <attribute name="is_stopped">true</attribute>
+      <attribute name="is_parked">false</attribute>
+      <attribute name="is_correct">true</attribute>
+      <attribute name="car_count">2</attribute>
+      <attribute name="3D_Point">37˚23'42"N 126˚55'04"E 37m</attribute>
+    </polyline>
+    <polyline label="car" occluded="0" points="1332.94,474.40;1283.08,443.13;1256.56,422.55;1237.96,402.76;1216.98,388.91" z_order="3">
+      <attribute name="is_visible">true</attribute>
+      <attribute name="is_stopped">true</attribute>
+      <attribute name="is_parked">false</attribute>
+      <attribute name="is_correct">true</attribute>
+      <attribute name="car_count">5</attribute>
+      <attribute name="3D_Point">37˚23'42"N 126˚55'04"E 37m</attribute>
+    </polyline>
+    <polyline label="car" occluded="0" points="1167.51,348.15;1149.31,334.30;1148.12,322.82" z_order="5">
+      <attribute name="is_visible">true</attribute>
+      <attribute name="is_stopped">true</attribute>
+      <attribute name="is_parked">false</attribute>
+      <attribute name="is_correct">true</attribute>
+      <attribute name="car_count">3</attribute>
+      <attribute name="3D_Point">37˚23'42"N 126˚55'04"E 37m</attribute>
+    </polyline>
+    <points label="truck" occluded="0" points="1140.20,314.51" z_order="6">
+      <attribute name="is_visible">true</attribute>
+      <attribute name="is_stopped">true</attribute>
+      <attribute name="is_parked">false</attribute>
+      <attribute name="is_correct">false</attribute>
+      <attribute name="car_count">1</attribute>
+      <attribute name="3D_Point">37˚23'42"N 126˚55'04"E 37m</attribute>
+    </points>
+    <polyline label="car" occluded="0" points="1204.71,468.07;1168.30,434.82;1159.60,413.05;1142.18,396.04;1137.43,377.04;1114.08,367.14" z_order="8">
+      <attribute name="is_visible">true</attribute>
+      <attribute name="is_stopped">true</attribute>
+      <attribute name="is_parked">false</attribute>
+      <attribute name="is_correct">true</attribute>
+      <attribute name="car_count">6</attribute>
+      <attribute name="3D_Point">37˚23'42"N 126˚55'04"E 37m</attribute>
+    </polyline>
+    <polyline label="bus" occluded="0" points="1107.35,351.31;1086.38,317.28" z_order="9">
+      <attribute name="is_visible">true</attribute>
+      <attribute name="is_stopped">true</attribute>
+      <attribute name="is_parked">false</attribute>
+      <attribute name="is_correct">true</attribute>
+      <attribute name="car_count">2</attribute>
+      <attribute name="3D_Point">37˚23'42"N 126˚55'04"E 37m</attribute>
+    </polyline>
+    <polyline label="car" occluded="0" points="981.89,391.68;967.65,350.92" z_order="10">
+      <attribute name="is_visible">true</attribute>
+      <attribute name="is_stopped">true</attribute>
+      <attribute name="is_parked">false</attribute>
+      <attribute name="is_correct">false</attribute>
+      <attribute name="car_count">2</attribute>
+      <attribute name="3D_Point">37˚23'42"N 126˚55'04"E 37m</attribute>
+    </polyline>
+    <polyline label="car" occluded="0" points="1061.45,414.64;1056.30,390.49" z_order="11">
+      <attribute name="is_visible">true</attribute>
+      <attribute name="is_stopped">true</attribute>
+      <attribute name="is_parked">false</attribute>
+      <attribute name="is_correct">true</attribute>
+      <attribute name="car_count">2</attribute>
+      <attribute name="3D_Point">37˚23'42"N 126˚55'04"E 37mn</attribute>
+    </polyline>
+    <polyline label="car" occluded="0" points="1032.55,344.59;1035.32,325.98;1029.78,310.55" z_order="12">
+      <attribute name="is_visible">true</attribute>
+      <attribute name="is_stopped">true</attribute>
+      <attribute name="is_parked">false</attribute>
+      <attribute name="is_correct">true</attribute>
+      <attribute name="car_count">3</attribute>
+      <attribute name="3D_Point">37˚23'42"N 126˚55'04"E 37m</attribute>
+    </polyline>
+    <points label="truck" occluded="0" points="1078.86,460.15" z_order="13">
+      <attribute name="is_visible">true</attribute>
+      <attribute name="is_stopped">true</attribute>
+      <attribute name="is_parked">false</attribute>
+      <attribute name="is_correct">true</attribute>
+      <attribute name="car_count"/>
+      <attribute name="3D_Point"/>
+    </points>
+    <polyline label="car" occluded="0" points="1022.14,283.28;1026.10,262.30" z_order="16">
+      <attribute name="is_visible">true</attribute>
+      <attribute name="is_stopped">true</attribute>
+      <attribute name="is_parked">false</attribute>
+      <attribute name="is_correct">false</attribute>
+      <attribute name="car_count">2</attribute>
+      <attribute name="3D_Point">37˚23'42"N 126˚55'04"E 37m</attribute>
+    </polyline>
+    <points label="truck" occluded="0" points="1046.40,373.87" z_order="14">
+      <attribute name="is_visible">true</attribute>
+      <attribute name="is_stopped">true</attribute>
+      <attribute name="is_parked">false</attribute>
+      <attribute name="is_correct">true</attribute>
+      <attribute name="car_count">1</attribute>
+      <attribute name="3D_Point">37˚23'42"N 126˚55'04"E 37m</attribute>
+    </points>
+    <points label="car" occluded="0" points="1006.82,158.99" z_order="18">
+      <attribute name="is_visible">true</attribute>
+      <attribute name="is_stopped">true</attribute>
+      <attribute name="is_parked">false</attribute>
+      <attribute name="is_correct">true</attribute>
+      <attribute name="car_count">1</attribute>
+      <attribute name="3D_Point">37˚23'42"N 126˚55'04"E 37m</attribute>
+    </points>
+    <points label="car" occluded="0" points="1022.66,158.42" z_order="19">
+      <attribute name="is_visible">true</attribute>
+      <attribute name="is_stopped">true</attribute>
+      <attribute name="is_parked">false</attribute>
+      <attribute name="is_correct">true</attribute>
+      <attribute name="car_count">1</attribute>
+      <attribute name="3D_Point">37˚23'42"N 126˚55'04"E 37m</attribute>
+    </points>
+    <points label="car" occluded="0" points="1039.46,160.16" z_order="20">
+      <attribute name="is_visible">true</attribute>
+      <attribute name="is_stopped">true</attribute>
+      <attribute name="is_parked">false</attribute>
+      <attribute name="is_correct">true</attribute>
+      <attribute name="car_count">1</attribute>
+      <attribute name="3D_Point">37˚23'42"N 126˚55'04"E 37m</attribute>
+    </points>
+    <points label="car" occluded="0" points="984.55,303.86" z_order="15">
+      <attribute name="is_visible">true</attribute>
+      <attribute name="is_stopped">true</attribute>
+      <attribute name="is_parked">false</attribute>
+      <attribute name="is_correct">true</attribute>
+      <attribute name="car_count">1</attribute>
+      <attribute name="3D_Point">37˚23'42"N 126˚55'04"E 37m</attribute>
+    </points>
+    <points label="car" occluded="0" points="991.55,158.82" z_order="17">
+      <attribute name="is_visible">true</attribute>
+      <attribute name="is_stopped">true</attribute>
+      <attribute name="is_parked">false</attribute>
+      <attribute name="is_correct">true</attribute>
+      <attribute name="car_count">1</attribute>
+      <attribute name="3D_Point">37˚23'42"N 126˚55'04"E 37m</attribute>
+    </points>
+  </image>
+</annotations>

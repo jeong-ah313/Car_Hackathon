@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?><annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>1073</id>
+      <project>Intersection</project>
+      <name>intersection_bbox</name>
+      <size>85</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker/>
+      <flipped>False</flipped>
+      <created>2021-04-05 22:35:24.526748+09:00</created>
+      <updated>2021-04-07 14:26:49.058171+09:00</updated>
+      <start_frame>0</start_frame>
+      <stop_frame>0</stop_frame>
+      <frame_filter>step=1</frame_filter>
+      <labels>
+        <label>
+          <name>unknown</name>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>bike</name>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Large_truck</name>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>truck</name>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>small_bus</name>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>bus</name>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>car</name>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+      <segments>
+        <segment>
+          <id>1038</id>
+          <start>0</start>
+          <stop>84</stop>
+          <url>http://220.85.41.207:8080/?id=1038</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>hughpark</username>
+        <email>hwpark@testworks.co.kr</email>
+      </owner>
+    </task>
+    <dumped>2021-05-13 17:02:49.805193+09:00</dumped>
+  </meta>
+  <image id="11" name="logical_camera_id1+video_info1 12.jpg" width="1920" height="1080">
+    <box label="car" occluded="0" xtl="1146.86" ytl="319.86" xbr="1168.12" ybr="335.35" z_order="39">
+    </box>
+    <box label="car" occluded="0" xtl="845.43" ytl="556.61" xbr="952.00" ybr="640.50" z_order="0">
+    </box>
+    <box label="car" occluded="0" xtl="625.00" ytl="574.00" xbr="750.60" ybr="668.00" z_order="0">
+    </box>
+    <box label="car" occluded="0" xtl="1163.17" ytl="583.47" xbr="1272.50" ybr="671.30" z_order="0">
+    </box>
+    <box label="car" occluded="0" xtl="791.00" ytl="581.80" xbr="916.90" ybr="668.70" z_order="0">
+    </box>
+    <box label="car" occluded="0" xtl="969.64" ytl="569.22" xbr="1094.70" ybr="674.10" z_order="0">
+    </box>
+    <box label="bus" occluded="0" xtl="283.60" ytl="483.20" xbr="556.30" ybr="708.50" z_order="0">
+    </box>
+    <box label="unknown" occluded="0" xtl="982.43" ytl="321.35" xbr="1000.67" ybr="336.17" z_order="43">
+    </box>
+    <box label="unknown" occluded="0" xtl="964.98" ytl="322.54" xbr="986.76" ybr="341.17" z_order="42">
+    </box>
+    <box label="bike" occluded="0" xtl="1193.84" ytl="310.28" xbr="1200.79" ybr="326.16" z_order="41">
+    </box>
+    <box label="truck" occluded="0" xtl="483.84" ytl="424.73" xbr="558.70" ybr="504.45" z_order="2">
+    </box>
+    <box label="car" occluded="0" xtl="510.85" ytl="565.67" xbr="611.60" ybr="657.64" z_order="3">
+    </box>
+    <box label="car" occluded="0" xtl="561.18" ytl="542.54" xbr="652.91" ybr="618.46" z_order="4">
+    </box>
+    <box label="car" occluded="0" xtl="600.50" ytl="526.97" xbr="696.86" ybr="603.15" z_order="5">
+    </box>
+    <box label="car" occluded="0" xtl="783.59" ytl="429.74" xbr="840.73" ybr="472.51" z_order="7">
+    </box>
+    <box label="car" occluded="0" xtl="827.67" ytl="414.72" xbr="872.73" ybr="452.92" z_order="8">
+    </box>
+    <box label="car" occluded="0" xtl="869.67" ytl="365.83" xbr="903.22" ybr="390.55" z_order="9">
+    </box>
+    <box label="car" occluded="0" xtl="743.80" ytl="491.61" xbr="824.16" ybr="547.12" z_order="10">
+    </box>
+    <box label="car" occluded="0" xtl="861.78" ytl="466.09" xbr="944.50" ybr="546.36" z_order="11">
+    </box>
+    <box label="car" occluded="0" xtl="853.62" ytl="494.66" xbr="939.60" ybr="552.88" z_order="12">
+    </box>
+    <box label="car" occluded="0" xtl="820.83" ytl="503.10" xbr="895.49" ybr="559.41" z_order="13">
+    </box>
+    <box label="car" occluded="0" xtl="798.50" ytl="515.81" xbr="885.82" ybr="580.88" z_order="14">
+    </box>
+    <box label="car" occluded="0" xtl="761.54" ytl="528.50" xbr="853.83" ybr="600.84" z_order="15">
+    </box>
+    <box label="car" occluded="0" xtl="727.08" ytl="541.43" xbr="816.41" ybr="617.84" z_order="16">
+    </box>
+    <box label="truck" occluded="0" xtl="668.38" ytl="536.44" xbr="791.50" ybr="642.53" z_order="17">
+    </box>
+    <box label="car" occluded="0" xtl="949.31" ytl="404.13" xbr="995.12" ybr="438.60" z_order="18">
+    </box>
+    <box label="car" occluded="0" xtl="953.17" ytl="435.88" xbr="1009.63" ybr="481.91" z_order="19">
+    </box>
+    <box label="bike" occluded="0" xtl="1084.74" ytl="392.68" xbr="1108.77" ybr="428.96" z_order="20">
+    </box>
+    <box label="car" occluded="0" xtl="1014.79" ytl="546.25" xbr="1114.78" ybr="621.53" z_order="21">
+    </box>
+    <box label="truck" occluded="0" xtl="982.36" ytl="516.77" xbr="1096.41" ybr="654.40" z_order="22">
+    </box>
+    <box label="car" occluded="0" xtl="1164.27" ytl="566.09" xbr="1272.54" ybr="650.55" z_order="23">
+    </box>
+    <box label="car" occluded="0" xtl="1167.70" ytl="524.75" xbr="1271.78" ybr="609.78" z_order="24">
+    </box>
+    <box label="car" occluded="0" xtl="1218.74" ytl="433.75" xbr="1278.73" ybr="480.83" z_order="25">
+    </box>
+    <box label="car" occluded="0" xtl="1307.48" ytl="504.70" xbr="1391.15" ybr="562.97" z_order="26">
+    </box>
+    <box label="car" occluded="0" xtl="1307.71" ytl="519.89" xbr="1402.04" ybr="587.23" z_order="27">
+    </box>
+    <box label="car" occluded="0" xtl="1311.63" ytl="541.53" xbr="1412.16" ybr="615.41" z_order="28">
+    </box>
+    <box label="car" occluded="0" xtl="646.99" ytl="482.06" xbr="763.55" ybr="569.89" z_order="29">
+    </box>
+    <box label="bus" occluded="0" xtl="651.52" ytl="408.92" xbr="763.84" ybr="507.53" z_order="30">
+    </box>
+    <box label="bus" occluded="0" xtl="678.62" ytl="368.76" xbr="766.12" ybr="452.02" z_order="31">
+    </box>
+    <box label="car" occluded="0" xtl="735.43" ytl="385.37" xbr="797.14" ybr="416.72" z_order="32">
+    </box>
+    <box label="car" occluded="0" xtl="971.30" ytl="371.38" xbr="1014.20" ybr="404.25" z_order="33">
+    </box>
+    <box label="car" occluded="0" xtl="973.74" ytl="358.50" xbr="1007.20" ybr="386.28" z_order="34">
+    </box>
+    <box label="bus" occluded="0" xtl="964.45" ytl="328.55" xbr="1036.44" ybr="380.14" z_order="35">
+    </box>
+    <box label="truck" occluded="0" xtl="940.08" ytl="314.76" xbr="971.82" ybr="354.82" z_order="36">
+    </box>
+    <box label="car" occluded="0" xtl="1170.90" ytl="376.17" xbr="1206.22" ybr="406.00" z_order="37">
+    </box>
+    <box label="truck" occluded="0" xtl="1225.30" ytl="364.64" xbr="1264.04" ybr="393.74" z_order="38">
+    </box>
+    <box label="car" occluded="0" xtl="1314.93" ytl="559.40" xbr="1445.00" ybr="668.90" z_order="0">
+    </box>
+    <box label="car" occluded="0" xtl="1158.15" ytl="313.56" xbr="1173.37" ybr="326.82" z_order="40">
+    </box>
+    <box label="car" occluded="0" xtl="1001.46" ytl="314.66" xbr="1020.75" ybr="329.75" z_order="45">
+    </box>
+    <box label="unknown" occluded="0" xtl="1018.91" ytl="301.26" xbr="1041.87" ybr="325.69" z_order="44">
+    </box>
+    <box label="bike" occluded="0" xtl="145.98" ytl="527.53" xbr="234.84" ybr="582.01" z_order="1">
+    </box>
+    <box label="Large_truck" occluded="0" xtl="1027.90" ytl="414.80" xbr="1142.00" ybr="576.80" z_order="0">
+    </box>
+  </image>
+</annotations>
