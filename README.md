@@ -8,6 +8,7 @@
 - 일정관리: 카카오톡 오픈 채팅 및 슬랙
 - 사용 모델: Yolov5
 - 성과: 대상 수상
+- https://github.com/Amadeus-System/13.Vehicles-Counting-AI-Hackathon 자세한 내용 참고 링크
 ![image](https://user-images.githubusercontent.com/72932028/147867713-b3c3d1ab-968f-4b5c-b825-ecc4d07a57a3.png)
 
 
